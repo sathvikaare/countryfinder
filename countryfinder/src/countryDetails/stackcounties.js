@@ -2,12 +2,12 @@ import React from 'react'
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import SearchCountry from './countrysearch';
 import EachCountryData from './eachCountryDetails';
-import WhetherApp from '../revison_React/WhetherApp';
+import WhetherApp from './WhetherApp';
 import About from './about';
 import CurrencyConverter from './currencyconverter';
 
 
-const Countriestack = () => {
+const CountrieStack= () => {
   return (
     <div>
        <BrowserRouter>
@@ -25,4 +25,4 @@ const Countriestack = () => {
     </div>
   )
 }
-export default Countriestack;
+export default CountrieStack;

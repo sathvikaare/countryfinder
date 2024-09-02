@@ -47,8 +47,8 @@ const SearchCountry = () => {
   }
 
   return (
-    <div className="background-container">
-      <div className="content-container">
+    <div className="background-container" >
+      <div className="content-container"style={{backgroundColor:"black"}}>
         <CountriesNavBar />
         <br />
         <center>
@@ -65,8 +65,8 @@ const SearchCountry = () => {
         <center>
           <div className="main">
             {currentCountries.map((each, index) => (
-              <Card style={{ width: '17rem', border: 'none' }} className="card" key={index}>
-                <Card.Img variant="top" src={each.flags.png} />
+              <Card style={{ width: '16rem', border: 'none',height:"22rem" }} className="card" key={index}>
+                <Card.Img variant="top" style={{height:"120px"}} src={each.flags.png} />
                 <Card.Body>
                   <Card.Title>{each.name.common}</Card.Title>
                 </Card.Body>

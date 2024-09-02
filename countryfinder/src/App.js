@@ -1,12 +1,13 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
-import Countriestack from './countryDetails/stackcounties';
+import CountrieStack from './countryDetails/stackcounties';
+
+// import Collegedata from './workShop/collegedata';
 
 function App() {
   return (
     <div className="App">
-      <Countriestack/>
-     
+      <CountrieStack/>
     </div>
   );
 }
